@@ -1,0 +1,31 @@
+{
+    "name": "proxy-lib",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "es2015": "./dist/index.js",
+    "typings": "./dist/index.d.ts",
+    "scripts": {
+        "clear:dist": "rimraf dist",
+        "build": "npm run clear:dist && ngc"
+    },
+    "author": "",
+    "license": "ISC",
+    "peerDependencies": {
+        "@angular/common": "^5.2.11",
+        "@angular/core": "^5.2.11",
+        "rxjs": "^5.5.11",
+        "zone.js": "^0.8.26"
+    },
+    "devDependencies": {
+        "@angular/common": "^5.2.11",
+        "@angular/compiler": "^5.2.11",
+        "@angular/compiler-cli": "^5.2.11",
+        "@angular/core": "^5.2.11",
+        "rimraf": "^2.6.2",
+        "rxjs": "^5.5.11",
+        "typescript": "^2.6.2",
+        "zone.js": "^0.8.26"
+    }
+}
